@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.david.koh" >
+    package="com.example.david.prueba3" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -26,13 +26,29 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" >
+            android:name=".Register"
+            android:label=".Register" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label=".Login" >
+        </activity>
+        <activity
+            android:name=".formulario"
+            android:label="@string/title_activity_formulario" >
+        </activity>
+        <activity
+            android:name=".forgot_password"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+        <activity
+            android:name=".Webview"
+            android:label="@string/title_activity_webview" >
         </activity>
     </application>
 
